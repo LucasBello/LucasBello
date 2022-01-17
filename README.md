@@ -21,10 +21,6 @@
                 <br>
         </samp>
  <!-- Programming Languages -->
-        <!-- Code logo 
-        <a href="https://github.com/LucasBello?tab=repositories" target="_blank"><img alt="Code"
-                        src="https://img.shields.io/badge/-code-000000?style=flat-square&logo=Plex&logoColor=white">
-        </a>-->
         <!-- AWS -->
         <a href="https://github.com/LucasBello?tab=repositories" target="_blank"><img alt="AWS"
                         src="https://img.shields.io/badge/-AWS-FF9900?style=for-the-badge&logo=amazonAWS&logoColor=white">
@@ -61,13 +57,6 @@
 </div>
   
  <div style="display: inline_block"><br>
-  <!--<img align="center" alt="Amazon Web Services" height="40" width="40" src="https://img.icons8.com/color/48/000000/amazon-web-services.png">
-  <img align="center" alt="Bash" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg">
-  <img align="center" alt="Git" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
-  <img align="center" alt="Python" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
-  <img align="center" alt="Google Cloud" height="40" width="40" src="https://img.icons8.com/color/48/000000/google-cloud.png">
-  <img align="center" alt="Terraform" height="40" width="40" src="https://img.icons8.com/color/48/000000/terraform.png">
-  <img align="center" alt="PowerShell" height="35" width="35" src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-powershell-a-task-based-command-line-shell-and-scripting-language-logo-color-tal-revivo.png">-->
   <img align="right" alt="Rafa-pic" height="150" style="border-radius:50px;" src="https://i.imgur.com/Wuc0xbh.png">
 </div>
   
@@ -76,8 +65,8 @@
 <div align="left">
 <a href="https://www.linkedin.com/in/lucas-valentim-bello-moro-312a2033/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=flat&logo=linkedin&logoColor=white" target="_blank"></a> 
 <a href="https://discordapp.com/users/336683743538315264" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white" target="_blank"></a>
+<a href="https://lucasbello747.medium.com/" target="_blank"><img src="https://img.shields.io/badge/Medium-000000?style=flat-squire&logo=Medium&logoColor=white" target="_blank"></a>
 
- <!--<img src="https://raw.githubusercontent.com/bornmay/bornmay/Update/svg/Bottom.svg" href="https://github.com/SP-XD" /> -->
  <!-- Profile Views Counter -->
 ![Profile views](https://gpvc.arturio.dev/LucasBello?v=3)
 </div>
