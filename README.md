@@ -16,7 +16,7 @@
         <samp>
                 「υиρяєтєитiσυѕ¢σ∂єs」
                 <br>
-                「 I am a Cloud Security Engineer and named Lord of Wigtownshire  」
+                「 I am a Cloud Architect and named Lord of Wigtownshire  」
                 <br>
                 <br>
         </samp>
