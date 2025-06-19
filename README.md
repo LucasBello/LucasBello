@@ -12,6 +12,23 @@
   <img align="right" src ="https://github-readme-stats.vercel.app/api/pin/?username=aveek-saha&repo=pixel-weather">
 </p> -->
 
+<!-- Intro  -->
+<h3 align="center">
+        <samp>&gt; Hey There, I am
+                <b><a target="_blank" href="https://lucasbello747.medium.com/">Lucas</a></b>
+        </samp>
+</h3>
+<br>
+
+<p align="center">
+        <!-- Organisation  -->
+        <samp>
+                「υиρяєтєитiσυѕ¢σ∂єs」
+                <br>
+                「 I am a Cloud Architect and named Lord of Wigtownshire  」
+                <br>
+                <br>
+        </samp>
 
 <!--
 **Aveek-Saha/aveek-saha** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
