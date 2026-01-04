@@ -19,13 +19,24 @@ jobs:
       - name: Ensure assets dir
         run: mkdir -p assets
 
-      - name: Fetch streak SVG
+      - name: Fetch streak SVG (styled)
         run: |
           curl -L --fail \
-            "https://streak-stats.demolab.com?user=LucasBello&theme=darcula&hide_border=true&background=0d1117" \
+            "https://streak-stats.demolab.com?user=LucasBello\
+&theme=dark\
+&hide_border=true\
+&background=0d1117\
+&ring=dd7a2f\
+&fire=dd7a2f\
+&currStreakNum=ffffff\
+&sideNums=dd7a2f\
+&currStreakLabel=ffffff\
+&sideLabels=ffffff\
+&dates=9aa4b2" \
             -o assets/streak.svg
 
-          # sanity check: garante que veio SVG, não HTML de erro
+          # sanity check: garante que é SVG válido
+          test -s assets/streak.svg
           head -n 5 assets/streak.svg | grep -qi "<svg"
 
       - name: Commit if changed
