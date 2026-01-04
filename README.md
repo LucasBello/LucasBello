@@ -43,8 +43,14 @@
 </p>
 
 <p align="center">
-  <img height="165"
-       src="https://streak-stats.demolab.com?user=LucasBello&theme=darcula&hide_border=true&background=0d1117" />
+  <samp>
+    ─────────────────────────<br>
+    <b>operational status</b><br>
+    monitoring: on<br>
+    clickops: off<br>
+    pager: silenced<br>
+    ─────────────────────────
+  </samp>
 </p>
 
 <p align="center">
