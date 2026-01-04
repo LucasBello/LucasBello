@@ -39,13 +39,13 @@
     <b>final warning</b><br>
     i don’t chase uptime.<br>
     i design systems that survive people.
+    <br><br><br><br>
   </samp>
 </p>
 
 <!--<p align="center" style="margin-top: 22px;">
   <img height="165" src="assets/streak.svg" alt="streak" />
 </p>-->
-<br><br><br><br> 
 <p align="center">
   <!-- CLOUD + PLATFORM (small) -->
   <img alt="AWS" src="https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white">
@@ -75,7 +75,7 @@
   <img alt="Disaster Recovery" src="https://img.shields.io/badge/Disaster%20Recovery-111111?style=flat&logo=amazonec2&logoColor=white">
   <img alt="FinOps" src="https://img.shields.io/badge/FinOps-111111?style=flat&logo=opencollective&logoColor=white">
 </p>
-
+<br><br><br><br>
 <p align="center">
   <samp>
     <i>consistency is built, not felt.</i>
