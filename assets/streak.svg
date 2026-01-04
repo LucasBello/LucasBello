@@ -1,1 +1,13 @@
-demo
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="195">
+  <style>
+    .stat { fill: #ffffff; font-family: 'Segoe UI', Ubuntu, Sans-Serif; }
+  </style>
+
+  <rect x="0" y="0" width="495" height="195" rx="10" fill="transparent"/>
+
+  <text x="247" y="40" text-anchor="middle" class="stat">Total Contributions</text>
+  <text x="247" y="80" text-anchor="middle" class="stat">395</text>
+
+  <text x="247" y="120" text-anchor="middle" class="stat">Current Streak</text>
+  <text x="247" y="160" text-anchor="middle" class="stat">1</text>
+</svg>
