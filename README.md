@@ -42,9 +42,9 @@
   </samp>
 </p>
 
-#<p align="center" style="margin-top: 22px;">
-#  <img height="165" src="assets/streak.svg" alt="streak" />
-#</p>
+<!--<p align="center" style="margin-top: 22px;">
+  <img height="165" src="assets/streak.svg" alt="streak" />
+</p>-->
 
 <p align="center">
   <samp>
