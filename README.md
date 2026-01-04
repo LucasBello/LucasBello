@@ -47,12 +47,6 @@
 </p>-->
 
 <p align="center">
-  <samp>
-    <i>consistency is built, not felt.</i>
-  </samp>
-</p>
-
-<p align="center">
   <!-- CLOUD + PLATFORM (small) -->
   <img alt="AWS" src="https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white">
   <img alt="Azure" src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white">
@@ -80,4 +74,10 @@
   <img alt="Secrets Mgmt" src="https://img.shields.io/badge/Secrets%20Mgmt-111111?style=flat&logo=hashicorp&logoColor=white">
   <img alt="Disaster Recovery" src="https://img.shields.io/badge/Disaster%20Recovery-111111?style=flat&logo=amazonec2&logoColor=white">
   <img alt="FinOps" src="https://img.shields.io/badge/FinOps-111111?style=flat&logo=opencollective&logoColor=white">
+</p>
+
+<p align="center">
+  <samp>
+    <i>consistency is built, not felt.</i>
+  </samp>
 </p>
