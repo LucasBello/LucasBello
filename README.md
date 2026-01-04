@@ -42,15 +42,8 @@
   </samp>
 </p>
 
-<p align="center">
-  <samp>
-    ─────────────────────────<br>
-    <b>operational status</b><br>
-    monitoring: on<br>
-    clickops: off<br>
-    pager: silenced<br>
-    ─────────────────────────
-  </samp>
+<p align="center" style="margin-top: 32px;">
+  <img height="165" src="assets/streak.svg" />
 </p>
 
 <p align="center">
