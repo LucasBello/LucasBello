@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="195" viewBox="0 0 495 195">
   <defs>
+    <!-- palette -->
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0b0f14"/>
       <stop offset="100%" stop-color="#0d1117"/>
@@ -10,77 +11,109 @@
     </filter>
 
     <style>
-      :root { --fg:#e6edf3; --muted:#9aa4b2; --green:#22c55e; }
+      :root { --fg:#e6edf3; --muted:#9aa4b2; --green:#22c55e; --green2:#16a34a; }
       .mono {
         font-family:
           ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
           "Liberation Mono", "Courier New", monospace;
         letter-spacing: 0.2px;
       }
-      .tag   { font-size: 12px; font-weight: 700; fill: var(--fg); letter-spacing: 1.4px; }
-      .title { font-size: 22px; font-weight: 800; fill: var(--fg); }
-      .sub   { font-size: 13px; font-weight: 500; fill: var(--muted); }
-      .small { font-size: 12px; font-weight: 600; fill: var(--muted); }
-      .num   { font-size: 34px; font-weight: 800; fill: var(--green); }
-      .thin  { stroke: rgba(230,237,243,0.14); stroke-width: 1; }
+      .title { font-size: 18px; font-weight: 700; fill: var(--fg); }
+      .sub   { font-size: 12px; font-weight: 500; fill: var(--muted); }
+      .tag   { font-size: 12px; font-weight: 700; fill: var(--fg); letter-spacing: 1.2px; }
+      .small { font-size: 11px; font-weight: 600; fill: var(--muted); }
+      .num   { font-size: 30px; font-weight: 800; fill: var(--green); }
+      .thin  { stroke: rgba(230,237,243,0.16); stroke-width: 1; }
     </style>
   </defs>
 
-  <!-- Card -->
+  <!-- card -->
   <rect x="0.5" y="0.5" width="494" height="194" rx="14" fill="url(#bg)" filter="url(#softShadow)"/>
-  <rect x="12" y="12" width="471" height="171" rx="12"
-        fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)"/>
+  <rect x="12" y="12" width="471" height="171" rx="12" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.06)"/>
 
-  <!-- Fade-in group -->
+  <!-- everything fades in -->
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" dur="0.55s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.55s" fill="freeze" />
 
-    <!-- LEFT BLOCK -->
+    <!-- LEFT: icon + label -->
     <g transform="translate(28 32)">
-      <!-- Ring + gear -->
+      <!-- animated ring -->
       <g transform="translate(36 36)">
+        <!-- ring track -->
         <circle r="34" fill="none" stroke="rgba(34,197,94,0.18)" stroke-width="4"/>
 
+        <!-- ring draw -->
         <circle r="34" fill="none" stroke="#22c55e" stroke-width="4"
                 stroke-linecap="round"
                 stroke-dasharray="214"
                 stroke-dashoffset="214">
-          <animate attributeName="stroke-dashoffset"
-                   from="214" to="0" dur="1s" begin="0.1s" fill="freeze"/>
+          <animate attributeName="stroke-dashoffset" from="214" to="0" dur="1.0s" begin="0.10s" fill="freeze"/>
         </circle>
 
-        <!-- Gear -->
-        <g fill="none" stroke="#22c55e" stroke-width="2.2"
-           stroke-linecap="round" stroke-linejoin="round">
+        <!-- subtle pulse -->
+        <circle r="34" fill="none" stroke="rgba(34,197,94,0.22)" stroke-width="1.5" opacity="0">
+          <animate attributeName="opacity" values="0;0.7;0" dur="1.2s" begin="0.55s" repeatCount="1"/>
+        </circle>
+
+        <!-- gear icon (vector, thin, green) -->
+        <g transform="scale(0.95)" fill="none" stroke="#22c55e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <!-- gear body -->
+          <path d="
+            M 0 -18
+            L 4.2 -16.8
+            L 7.8 -13.5
+            L 12.1 -14.2
+            L 15.4 -9.6
+            L 13.2 -6.0
+            L 15.6 -2.0
+            L 18 0
+            L 15.6 2.0
+            L 13.2 6.0
+            L 15.4 9.6
+            L 12.1 14.2
+            L 7.8 13.5
+            L 4.2 16.8
+            L 0 18
+            L -4.2 16.8
+            L -7.8 13.5
+            L -12.1 14.2
+            L -15.4 9.6
+            L -13.2 6.0
+            L -15.6 2.0
+            L -18 0
+            L -15.6 -2.0
+            L -13.2 -6.0
+            L -15.4 -9.6
+            L -12.1 -14.2
+            L -7.8 -13.5
+            L -4.2 -16.8
+            Z"/>
+          <!-- inner ring -->
           <circle r="7.2"/>
           <circle r="2.1" fill="#22c55e" stroke="none"/>
         </g>
       </g>
 
-      <!-- Text block -->
-      <text x="88" y="18" class="mono tag">OPERATIONS</text>
+      <!-- label stack -->
+      <text x="88" y="22" class="mono tag">OPERATIONS</text>
       <text x="88" y="44" class="mono title">modernops cadence</text>
-      <text x="88" y="68" class="mono sub">
-        automation over heroism • clickops disabled
-      </text>
+      <text x="88" y="64" class="mono sub">automation over heroism • clickops disabled</text>
     </g>
 
-    <!-- Divider -->
-    <line x1="250" y1="28" x2="250" y2="167" class="thin"/>
+    <!-- DIVIDER -->
+    <line x1="248" y1="34" x2="248" y2="161" class="thin"/>
 
-    <!-- RIGHT BLOCK -->
-    <g transform="translate(270 36)" class="mono">
-      <text x="0" y="0" class="tag">STATUS</text>
+    <!-- RIGHT: stats (thin + clean) -->
+    <g transform="translate(270 42)" class="mono">
+      <text x="0"  y="0"  class="tag">STATUS</text>
 
-      <text x="0" y="30" class="small">Total Contributions</text>
-      <text x="0" y="64" class="num">395</text>
+      <text x="0"  y="34" class="small">Total Contributions</text>
+      <text x="0"  y="64" class="num">395</text>
 
-      <text x="0" y="102" class="small">Current Streak</text>
-      <text x="0" y="136" class="num">1</text>
+      <text x="0"  y="96" class="small">Current Streak</text>
+      <text x="0"  y="126" class="num">1</text>
 
-      <text x="0" y="160" class="sub">
-        consistency isn’t motivation. it’s systems.
-      </text>
+      <text x="0"  y="150" class="sub">consistency isn’t motivation. it’s systems.</text>
     </g>
 
   </g>
