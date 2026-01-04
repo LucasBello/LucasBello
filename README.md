@@ -42,9 +42,12 @@
   </samp>
 </p>
 
-<p align="center" style="margin-top: 32px;">
-  <img height="165"
-       src="https://streak-stats.demolab.com?user=LucasBello&theme=darcula&hide_border=true&background=00000000&cache_seconds=21600" />
+<p align="center">
+  <picture>
+    <source srcset="https://streak-stats.demolab.com?user=LucasBello&theme=darcula&hide_border=true&background=00000000" type="image/svg+xml">
+    <img height="165" alt="streak"
+         src="https://github-readme-stats.vercel.app/api?username=LucasBello&show_icons=true&theme=darcula&hide_border=true&bg_color=00000000" />
+  </picture>
 </p>
 
 <p align="center">
