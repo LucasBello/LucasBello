@@ -42,15 +42,9 @@
   </samp>
 </p>
 
-
-<p align="center">
+<p align="center" style="margin-top: 32px;">
   <img height="165"
        src="https://streak-stats.demolab.com?user=LucasBello&theme=darcula&hide_border=true&background=00000000&cache_seconds=21600" />
-       <br>
-       <br>
-       <br>
-<br>
-<br>
 </p>
 
 <p align="center">
