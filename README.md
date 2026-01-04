@@ -42,8 +42,10 @@
   </samp>
 </p>
 
-<p align="center" style="margin-top: 32px;">
-  <img height="165" src="assets/streak.svg" />
+<p align="center">
+  <samp>
+    <i>consistency isn’t motivation. it’s systems.</i>
+  </samp>
 </p>
 
 <p align="center">
