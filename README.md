@@ -5,7 +5,7 @@
 <p align="center">
   <!-- COMMAND INSIGNIA -->
   <img src="https://img.shields.io/badge/Cloud%20Architecture-000000?style=for-the-badge&logo=icloud&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SRE-000000?style=for-the-badge&logo=googlesre&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SRE-000000?style=for-the-badge&logo=kubernetes&logoColor=white"/>
   <img src="https://img.shields.io/badge/ModernOps-000000?style=for-the-badge&logo=linuxfoundation&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitOps-000000?style=for-the-badge&logo=git&logoColor=white"/>
 </p>
