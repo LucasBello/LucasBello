@@ -1,7 +1,8 @@
 <h3 align="center">
   <samp>
-    &gt; hey, i’m
-    <b><a target="_blank" href="https://lucasbello747.medium.com/">Lucas</a></b>
+    &gt; whoami
+    <br>
+    <b><a target="_blank" href="https://lucasbello747.medium.com/">lucas</a></b>
   </samp>
 </h3>
 
@@ -9,13 +10,29 @@
   <samp>
     「υиρяєтєитiσυѕ¢σ∂єs」
     <br>
-    「 Cloud Infra • ModernOps • IaC • Kubernetes • FinOps (when hurts) 」
+    cloud infra is not magic. it’s discipline, paranoia and receipts.
     <br>
-    「 i automate first, ask forgiveness never 」
-    <br>
-    「 living between: reliability & chaos (with dashboards) 」
+    i break systems professionally so they don’t break at 3am.
     <br><br>
-    <i>Named Lord of Wigtownshire (still judging your YAML)</i>
+    <i>lord of wigtownshire — feudal privileges revoked after the last outage</i>
+  </samp>
+</p>
+
+<p align="center">
+  <samp>
+    ─────────────────────────
+    <br>
+    <b>things i actually do</b>
+    <br>
+    build infra • delete infra • explain infra to people who approved the budget
+    <br>
+    turn incidents into postmortems
+    <br>
+    turn postmortems into automation
+    <br>
+    turn automation into silence
+    <br>
+    ─────────────────────────
   </samp>
 </p>
 
@@ -41,24 +58,33 @@
   <a href="https://github.com/LucasBello?tab=repositories" target="_blank">
     <img alt="Shell" src="https://img.shields.io/badge/-Shell-4EAA25?style=for-the-badge&logo=GNUBash&logoColor=white">
   </a>
-  <a href="https://github.com/LucasBello?tab=repositories" target="_blank">
-    <img alt="PowerShell" src="https://img.shields.io/badge/-PowerShell-5391FE?style=for-the-badge&logo=Powershell&logoColor=white">
-  </a>
 </p>
-
-<br>
 
 <p align="center">
   <samp>
-    ────────────────
+    ─────────────────────────
     <br>
-    <b>current obsessions</b>
+    <b>belief system</b>
     <br>
-    kubernetes • gitops • dr/bcp • cost control • incident zen
+    if it’s manual, it’s broken
     <br>
-    homelab stuff that should be simple (but isn’t)
+    if it’s undocumented, it’s a rumor
     <br>
-    ────────────────
+    if it’s not monitored, it’s already dead
+    <br>
+    if it’s not in git, it never existed
+    <br>
+    ─────────────────────────
+  </samp>
+</p>
+
+<p align="center">
+  <samp>
+    <b>anti-patterns i hunt</b>
+    <br>
+    snowflake servers • clickops • heroic debugging
+    <br>
+    “just this once” • “it worked in prod” • “nobody told me”
   </samp>
 </p>
 
@@ -74,10 +100,10 @@
 <p align="center">
   <samp>
     <br>
-    <b>principles</b>
+    <b>final warning</b>
     <br>
-    ship reliably • document grudges • delete dead resources • measure everything
+    i don’t chase uptime.
     <br>
-    <i>if it’s not in git, it’s folklore.</i>
+    i design systems that survive people.
   </samp>
 </p>
